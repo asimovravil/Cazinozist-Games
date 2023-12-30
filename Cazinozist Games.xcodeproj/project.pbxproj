@@ -44,6 +44,7 @@
 		F16DF1222B406D580013C494 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF11E2B406D580013C494 /* TestViewController.swift */; };
 		F16DF1232B406D580013C494 /* QuestionCazinozist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF11F2B406D580013C494 /* QuestionCazinozist.swift */; };
 		F16DF1252B4074290013C494 /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF1242B4074290013C494 /* WinViewController.swift */; };
+		F16DF1272B4078650013C494 /* LoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF1262B4078650013C494 /* LoseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		F16DF11E2B406D580013C494 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		F16DF11F2B406D580013C494 /* QuestionCazinozist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCazinozist.swift; sourceTree = "<group>"; };
 		F16DF1242B4074290013C494 /* WinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
+		F16DF1262B4078650013C494 /* LoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				F16DF11F2B406D580013C494 /* QuestionCazinozist.swift */,
 				F16DF11C2B406D580013C494 /* CazinozistLogic.swift */,
 				F16DF1242B4074290013C494 /* WinViewController.swift */,
+				F16DF1262B4078650013C494 /* LoseViewController.swift */,
 				F16DF0C12B3FE55F0013C494 /* Assets.xcassets */,
 				F16DF0C32B3FE55F0013C494 /* LaunchScreen.storyboard */,
 				F16DF0C62B3FE55F0013C494 /* Info.plist */,
@@ -267,6 +270,7 @@
 				F16DF10B2B40480F0013C494 /* PrivacyViewController.swift in Sources */,
 				F16DF1092B4047E20013C494 /* MenuViewController.swift in Sources */,
 				F16DF1122B4054070013C494 /* LevelsCell.swift in Sources */,
+				F16DF1272B4078650013C494 /* LoseViewController.swift in Sources */,
 				F16DF1132B4054070013C494 /* LevelsViewController.swift in Sources */,
 				F16DF1192B405F8A0013C494 /* RulesViewController.swift in Sources */,
 				F16DF0DE2B3FE8E20013C494 /* CGList.swift in Sources */,
