@@ -9,7 +9,7 @@ import UIKit
 
 class OnboardingViewController: UIViewController {
     
-    var sectionPageList = 0
+    var sectionCGList = 0
     
     let onboardingImage = UIImageView()
     let onboardingTitle = UILabel()
@@ -20,13 +20,13 @@ class OnboardingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        updateContentForPage(sectionPageList)
-        setupUI()
-        setupNavBar()
+        updatePageControllCG(sectionCGList)
+        cgUI()
+        cgBar()
         view.backgroundColor = UIColor(named: "backgroundCust")
     }
     
-    func setupUI() {
+    func cgUI() {
         onboardingSkip.setImage(UIImage(named: "skip"), for: .normal)
         view.addSubview(onboardingSkip)
         
@@ -50,8 +50,8 @@ class OnboardingViewController: UIViewController {
         onboardingSubTitle.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(onboardingSubTitle)
         
-        onboardingPage.numberOfPages = onboardingList.count
-        onboardingPage.currentPage = sectionPageList
+        onboardingPage.numberOfPages = cgList.count
+        onboardingPage.currentPage = sectionCGList
         onboardingPage.currentPageIndicatorTintColor = .blue
         onboardingPage.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(onboardingPage)
@@ -95,9 +95,9 @@ class OnboardingViewController: UIViewController {
         ])
     }
     
-    func updateContentForPage(_ pageonbo: Int) {
-        let sectionData = onboardingList[pageonbo]
-        let titleText = sectionData.onboardingTitle.uppercased()
+    func updatePageControllCG(_ pageonbo: Int) {
+        let sectionData = cgList[pageonbo]
+        let titleText = sectionData.cgTitle.uppercased()
         let attributedString = NSMutableAttributedString(string: titleText)
 
         let colorAttribute = [NSAttributedString.Key.foregroundColor: UIColor(named: "blueCust")]
@@ -116,13 +116,13 @@ class OnboardingViewController: UIViewController {
             self.onboardingTitle.attributedText = attributedString
         }
         
-        onboardingSubTitle.text = sectionData.onboardingSubTitle
-        onboardingImage.image = UIImage(named: sectionData.onboardingImage)
+        onboardingSubTitle.text = sectionData.cgSubTitle
+        onboardingImage.image = UIImage(named: sectionData.cgImage)
         
         switch pageonbo {
-        case onboardingList.count - 1:
+        case cgList.count - 1:
             onboardingNext.setImage(UIImage(named: "start"), for: .normal)
-        case onboardingList.count - 2:
+        case cgList.count - 2:
             onboardingNext.setImage(UIImage(named: "next"), for: .normal)
                 if UIScreen.main.bounds.size.height >= 812 {
                     NSLayoutConstraint.activate([
@@ -139,19 +139,19 @@ class OnboardingViewController: UIViewController {
     }
     
     @objc func sectionNextClapped() {
-        if sectionPageList < onboardingList.count - 1 {
-            sectionPageList += 1
+        if sectionCGList < cgList.count - 1 {
+            sectionCGList += 1
         } else {
 //            let homeVC = HomeViewController()
 //            homeVC.navigationItem.hidesBackButton = true
 //            self.navigationController?.pushViewController(homeVC, animated: true)
         }
         
-        updateContentForPage(sectionPageList)
-        onboardingPage.currentPage = sectionPageList
+        updatePageControllCG(sectionCGList)
+        onboardingPage.currentPage = sectionCGList
     }
     
-    private func setupNavBar() {
+    private func cgBar() {
         let sectionSkipBarButton = UIBarButtonItem(customView: onboardingSkip)
         navigationItem.rightBarButtonItem = sectionSkipBarButton
         onboardingSkip.addTarget(self, action: #selector(skipButtonTapped), for: .touchUpInside)

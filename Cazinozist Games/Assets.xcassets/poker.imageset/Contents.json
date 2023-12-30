@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "poker.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

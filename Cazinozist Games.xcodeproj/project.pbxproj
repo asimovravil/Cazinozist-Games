@@ -12,7 +12,7 @@
 		F16DF0BD2B3FE55D0013C494 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF0BC2B3FE55D0013C494 /* OnboardingViewController.swift */; };
 		F16DF0C22B3FE55F0013C494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16DF0C12B3FE55F0013C494 /* Assets.xcassets */; };
 		F16DF0C52B3FE55F0013C494 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16DF0C32B3FE55F0013C494 /* LaunchScreen.storyboard */; };
-		F16DF0DE2B3FE8E20013C494 /* OnboardingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF0DD2B3FE8E20013C494 /* OnboardingList.swift */; };
+		F16DF0DE2B3FE8E20013C494 /* CGList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF0DD2B3FE8E20013C494 /* CGList.swift */; };
 		F16DF0F22B3FEAE60013C494 /* Archivo-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16DF0E02B3FEAE60013C494 /* Archivo-BlackItalic.ttf */; };
 		F16DF0F32B3FEAE60013C494 /* Archivo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16DF0E12B3FEAE60013C494 /* Archivo-Regular.ttf */; };
 		F16DF0F42B3FEAE60013C494 /* Archivo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16DF0E22B3FEAE60013C494 /* Archivo-Black.ttf */; };
@@ -31,6 +31,7 @@
 		F16DF1012B3FEAE60013C494 /* Archivo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16DF0EF2B3FEAE60013C494 /* Archivo-ExtraBold.ttf */; };
 		F16DF1022B3FEAE60013C494 /* Archivo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16DF0F02B3FEAE60013C494 /* Archivo-Light.ttf */; };
 		F16DF1032B3FEAE60013C494 /* Archivo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F16DF0F12B3FEAE60013C494 /* Archivo-Thin.ttf */; };
+		F16DF1052B3FF45A0013C494 /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF1042B3FF45A0013C494 /* GamesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +42,7 @@
 		F16DF0C12B3FE55F0013C494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F16DF0C42B3FE55F0013C494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F16DF0C62B3FE55F0013C494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F16DF0DD2B3FE8E20013C494 /* OnboardingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingList.swift; sourceTree = "<group>"; };
+		F16DF0DD2B3FE8E20013C494 /* CGList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGList.swift; sourceTree = "<group>"; };
 		F16DF0E02B3FEAE60013C494 /* Archivo-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-BlackItalic.ttf"; sourceTree = "<group>"; };
 		F16DF0E12B3FEAE60013C494 /* Archivo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-Regular.ttf"; sourceTree = "<group>"; };
 		F16DF0E22B3FEAE60013C494 /* Archivo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-Black.ttf"; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 		F16DF0EF2B3FEAE60013C494 /* Archivo-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-ExtraBold.ttf"; sourceTree = "<group>"; };
 		F16DF0F02B3FEAE60013C494 /* Archivo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-Light.ttf"; sourceTree = "<group>"; };
 		F16DF0F12B3FEAE60013C494 /* Archivo-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-Thin.ttf"; sourceTree = "<group>"; };
+		F16DF1042B3FF45A0013C494 /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +98,8 @@
 				F16DF0B82B3FE55D0013C494 /* AppDelegate.swift */,
 				F16DF0BA2B3FE55D0013C494 /* SceneDelegate.swift */,
 				F16DF0BC2B3FE55D0013C494 /* OnboardingViewController.swift */,
-				F16DF0DD2B3FE8E20013C494 /* OnboardingList.swift */,
+				F16DF0DD2B3FE8E20013C494 /* CGList.swift */,
+				F16DF1042B3FF45A0013C494 /* GamesViewController.swift */,
 				F16DF0C12B3FE55F0013C494 /* Assets.xcassets */,
 				F16DF0C32B3FE55F0013C494 /* LaunchScreen.storyboard */,
 				F16DF0C62B3FE55F0013C494 /* Info.plist */,
@@ -219,8 +222,9 @@
 			files = (
 				F16DF0BD2B3FE55D0013C494 /* OnboardingViewController.swift in Sources */,
 				F16DF0B92B3FE55D0013C494 /* AppDelegate.swift in Sources */,
-				F16DF0DE2B3FE8E20013C494 /* OnboardingList.swift in Sources */,
+				F16DF0DE2B3FE8E20013C494 /* CGList.swift in Sources */,
 				F16DF0BB2B3FE55D0013C494 /* SceneDelegate.swift in Sources */,
+				F16DF1052B3FF45A0013C494 /* GamesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
