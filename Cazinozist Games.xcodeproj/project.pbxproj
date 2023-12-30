@@ -45,6 +45,17 @@
 		F16DF1232B406D580013C494 /* QuestionCazinozist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF11F2B406D580013C494 /* QuestionCazinozist.swift */; };
 		F16DF1252B4074290013C494 /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF1242B4074290013C494 /* WinViewController.swift */; };
 		F16DF1272B4078650013C494 /* LoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF1262B4078650013C494 /* LoseViewController.swift */; };
+		F16DF1292B407CBF0013C494 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F16DF1282B407CBF0013C494 /* GoogleService-Info.plist */; };
+		F16DF12E2B407CC50013C494 /* CazinozistBurger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF12A2B407CC50013C494 /* CazinozistBurger.swift */; };
+		F16DF12F2B407CC50013C494 /* CazinozistWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF12B2B407CC50013C494 /* CazinozistWebViewController.swift */; };
+		F16DF1302B407CC50013C494 /* CazinozistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF12C2B407CC50013C494 /* CazinozistViewController.swift */; };
+		F16DF1312B407CC50013C494 /* CazinozistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF12D2B407CC50013C494 /* CazinozistData.swift */; };
+		F16DF1342B407D7E0013C494 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F16DF1332B407D7E0013C494 /* FirebaseAnalytics */; };
+		F16DF1362B407D7E0013C494 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = F16DF1352B407D7E0013C494 /* FirebaseAnalyticsOnDeviceConversion */; };
+		F16DF1382B407D7E0013C494 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F16DF1372B407D7E0013C494 /* FirebaseAnalyticsSwift */; };
+		F16DF13A2B407D7E0013C494 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = F16DF1392B407D7E0013C494 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		F16DF13C2B407D7E0013C494 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = F16DF13B2B407D7E0013C494 /* FirebaseAppCheck */; };
+		F16DF13F2B407D870013C494 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F16DF13E2B407D870013C494 /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +99,11 @@
 		F16DF11F2B406D580013C494 /* QuestionCazinozist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCazinozist.swift; sourceTree = "<group>"; };
 		F16DF1242B4074290013C494 /* WinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
 		F16DF1262B4078650013C494 /* LoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseViewController.swift; sourceTree = "<group>"; };
+		F16DF1282B407CBF0013C494 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F16DF12A2B407CC50013C494 /* CazinozistBurger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CazinozistBurger.swift; sourceTree = "<group>"; };
+		F16DF12B2B407CC50013C494 /* CazinozistWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CazinozistWebViewController.swift; sourceTree = "<group>"; };
+		F16DF12C2B407CC50013C494 /* CazinozistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CazinozistViewController.swift; sourceTree = "<group>"; };
+		F16DF12D2B407CC50013C494 /* CazinozistData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CazinozistData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +111,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F16DF1382B407D7E0013C494 /* FirebaseAnalyticsSwift in Frameworks */,
+				F16DF1342B407D7E0013C494 /* FirebaseAnalytics in Frameworks */,
+				F16DF1362B407D7E0013C494 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				F16DF13C2B407D7E0013C494 /* FirebaseAppCheck in Frameworks */,
+				F16DF13A2B407D7E0013C494 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				F16DF13F2B407D870013C494 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +128,7 @@
 			children = (
 				F16DF0B72B3FE55D0013C494 /* Cazinozist Games */,
 				F16DF0B62B3FE55D0013C494 /* Products */,
+				F16DF13D2B407D870013C494 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,9 +162,14 @@
 				F16DF11C2B406D580013C494 /* CazinozistLogic.swift */,
 				F16DF1242B4074290013C494 /* WinViewController.swift */,
 				F16DF1262B4078650013C494 /* LoseViewController.swift */,
+				F16DF12D2B407CC50013C494 /* CazinozistData.swift */,
+				F16DF12B2B407CC50013C494 /* CazinozistWebViewController.swift */,
+				F16DF12C2B407CC50013C494 /* CazinozistViewController.swift */,
+				F16DF12A2B407CC50013C494 /* CazinozistBurger.swift */,
 				F16DF0C12B3FE55F0013C494 /* Assets.xcassets */,
 				F16DF0C32B3FE55F0013C494 /* LaunchScreen.storyboard */,
 				F16DF0C62B3FE55F0013C494 /* Info.plist */,
+				F16DF1282B407CBF0013C494 /* GoogleService-Info.plist */,
 			);
 			path = "Cazinozist Games";
 			sourceTree = "<group>";
@@ -171,6 +199,13 @@
 			path = Archivo;
 			sourceTree = "<group>";
 		};
+		F16DF13D2B407D870013C494 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,6 +222,14 @@
 			dependencies = (
 			);
 			name = "Cazinozist Games";
+			packageProductDependencies = (
+				F16DF1332B407D7E0013C494 /* FirebaseAnalytics */,
+				F16DF1352B407D7E0013C494 /* FirebaseAnalyticsOnDeviceConversion */,
+				F16DF1372B407D7E0013C494 /* FirebaseAnalyticsSwift */,
+				F16DF1392B407D7E0013C494 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				F16DF13B2B407D7E0013C494 /* FirebaseAppCheck */,
+				F16DF13E2B407D870013C494 /* FirebaseFirestore */,
+			);
 			productName = "Cazinozist Games";
 			productReference = F16DF0B52B3FE55D0013C494 /* Cazinozist Games.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +258,9 @@
 				Base,
 			);
 			mainGroup = F16DF0AC2B3FE55D0013C494;
+			packageReferences = (
+				F16DF1322B407D7E0013C494 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = F16DF0B62B3FE55D0013C494 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -249,6 +295,7 @@
 				F16DF0FD2B3FEAE60013C494 /* Archivo-Italic.ttf in Resources */,
 				F16DF0F62B3FEAE60013C494 /* Archivo-SemiBold.ttf in Resources */,
 				F16DF0F22B3FEAE60013C494 /* Archivo-BlackItalic.ttf in Resources */,
+				F16DF1292B407CBF0013C494 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F16DF1302B407CC50013C494 /* CazinozistViewController.swift in Sources */,
+				F16DF1312B407CC50013C494 /* CazinozistData.swift in Sources */,
 				F16DF1252B4074290013C494 /* WinViewController.swift in Sources */,
+				F16DF12E2B407CC50013C494 /* CazinozistBurger.swift in Sources */,
 				F16DF1212B406D580013C494 /* TestCell.swift in Sources */,
 				F16DF1072B40459A0013C494 /* DictionaryViewController.swift in Sources */,
 				F16DF0BD2B3FE55D0013C494 /* OnboardingViewController.swift in Sources */,
@@ -273,6 +323,7 @@
 				F16DF1272B4078650013C494 /* LoseViewController.swift in Sources */,
 				F16DF1132B4054070013C494 /* LevelsViewController.swift in Sources */,
 				F16DF1192B405F8A0013C494 /* RulesViewController.swift in Sources */,
+				F16DF12F2B407CC50013C494 /* CazinozistWebViewController.swift in Sources */,
 				F16DF0DE2B3FE8E20013C494 /* CGList.swift in Sources */,
 				F16DF0BB2B3FE55D0013C494 /* SceneDelegate.swift in Sources */,
 				F16DF1052B3FF45A0013C494 /* GamesViewController.swift in Sources */,
@@ -489,6 +540,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F16DF1322B407D7E0013C494 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F16DF1332B407D7E0013C494 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F16DF1322B407D7E0013C494 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		F16DF1352B407D7E0013C494 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F16DF1322B407D7E0013C494 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		F16DF1372B407D7E0013C494 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F16DF1322B407D7E0013C494 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		F16DF1392B407D7E0013C494 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F16DF1322B407D7E0013C494 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		F16DF13B2B407D7E0013C494 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F16DF1322B407D7E0013C494 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		F16DF13E2B407D870013C494 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F16DF1322B407D7E0013C494 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F16DF0AD2B3FE55D0013C494 /* Project object */;
 }

@@ -104,6 +104,7 @@ class RulesViewController: UIViewController {
         buttonLeft.isEnabled = true
         imageRules.image = UIImage(named: "pokerRules2")
         buttonRight.isEnabled = false
+        firstPage.textColor = UIColor(named: "grayCust")
         secondPage.textColor = .white
         buttonStart.isHidden = false
     }
@@ -112,7 +113,8 @@ class RulesViewController: UIViewController {
         buttonRight.isEnabled = true
         imageRules.image = UIImage(named: "pokerRules")
         buttonLeft.isEnabled = false
-        firstPage.textColor = UIColor(named: "grayCust")
+        firstPage.textColor = .white
+        secondPage.textColor = UIColor(named: "grayCust")
         buttonStart.isHidden = true
     }
 

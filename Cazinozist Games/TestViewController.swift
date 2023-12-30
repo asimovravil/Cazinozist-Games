@@ -56,10 +56,12 @@ final class TestViewController: UIViewController {
         if userCorrectAnswers == 5 {
             let winVC = WinViewController()
             winVC.hidesBottomBarWhenPushed = true
+            winVC.navigationItem.hidesBackButton = true
             self.navigationController?.pushViewController(winVC, animated: true)
         } else {
             let loseVC = LoseViewController()
             loseVC.userCorrectAnswers = userCorrectAnswers
+            loseVC.navigationItem.hidesBackButton = true
             loseVC.hidesBottomBarWhenPushed = true
             self.navigationController?.pushViewController(loseVC, animated: true)
         }
