@@ -34,6 +34,7 @@ class WinViewController: UIViewController {
         
         buttonStep.setImage(UIImage(named: "okay"), for: .normal)
         buttonStep.translatesAutoresizingMaskIntoConstraints = false
+        buttonStep.addTarget(self, action: #selector(buttonStepTapped), for: .touchUpInside)
         view.addSubview(buttonStep)
         
         NSLayoutConstraint.activate([
@@ -51,14 +52,18 @@ class WinViewController: UIViewController {
             NSLayoutConstraint.activate([
                 buttonStep.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -24),
                 imageScore.bottomAnchor.constraint(equalTo: buttonStep.topAnchor, constant: -24),
-
             ])
         } else {
             NSLayoutConstraint.activate([
                 buttonStep.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0),
                 imageScore.bottomAnchor.constraint(equalTo: buttonStep.topAnchor, constant: 24),
-
             ])
         }
+    }
+    
+    @objc private func buttonStepTapped() {
+        let tabbarVC = TabBarController()
+        tabbarVC.navigationItem.hidesBackButton = true
+        self.navigationController?.pushViewController(tabbarVC, animated: true)
     }
 }

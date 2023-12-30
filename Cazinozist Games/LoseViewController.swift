@@ -34,6 +34,7 @@ class LoseViewController: UIViewController {
         
         buttonStep.setImage(UIImage(named: "readAgain"), for: .normal)
         buttonStep.translatesAutoresizingMaskIntoConstraints = false
+        buttonStep.addTarget(self, action: #selector(buttonStepTapped), for: .touchUpInside)
         view.addSubview(buttonStep)
         
         NSLayoutConstraint.activate([
@@ -60,5 +61,11 @@ class LoseViewController: UIViewController {
 
             ])
         }
+    }
+    
+    @objc private func buttonStepTapped() {
+        let tabbarVC = TabBarController()
+        tabbarVC.navigationItem.hidesBackButton = true
+        self.navigationController?.pushViewController(tabbarVC, animated: true)
     }
 }
