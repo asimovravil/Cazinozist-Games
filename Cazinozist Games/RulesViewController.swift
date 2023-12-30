@@ -69,6 +69,7 @@ class RulesViewController: UIViewController {
         
         buttonLeft.addTarget(self, action: #selector(buttonLeftTapped), for: .touchUpInside)
         buttonRight.addTarget(self, action: #selector(buttonRightTapped), for: .touchUpInside)
+        buttonStart.addTarget(self, action: #selector(buttonStartTapped), for: .touchUpInside)
         
         NSLayoutConstraint.activate([
             
@@ -115,10 +116,14 @@ class RulesViewController: UIViewController {
         buttonStart.isHidden = true
     }
 
+    @objc private func buttonStartTapped() {
+        let testVC = TestViewController()
+        self.navigationController?.pushViewController(testVC, animated: true)
+    }
     
     private func cgBar() {
         let titleLabel = UILabel()
-        titleLabel.text = "Level 1"
+        titleLabel.text = "Rules"
         titleLabel.textColor = UIColor(named: "grayCust")
         titleLabel.font = UIFont(name: "Archivo-Medium", size: 14)
         navigationItem.titleView = titleLabel
