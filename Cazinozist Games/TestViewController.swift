@@ -53,13 +53,18 @@ final class TestViewController: UIViewController {
     }
     
     private func navigateToLeaderboard() {
-//        let resultVC = ResultViewController()
-//        resultVC.modalPresentationStyle = .fullScreen
-//        resultVC.correctAnswers = userCorrectAnswers
-//        resultVC.totalQuestions = totalQuestions
-//        resultVC.questionResults = questionResults // Передаем массив результатов
-//        present(resultVC, animated: true, completion: nil)
+        if userCorrectAnswers == 5 {
+            let winVC = WinViewController()
+            winVC.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(winVC, animated: true)
+        } else {
+            let loseVC = LoseViewController()
+            loseVC.userCorrectAnswers = userCorrectAnswers
+            loseVC.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(loseVC, animated: true)
+        }
     }
+
     
     private func cgBar() {
         let titleLabel = UILabel()

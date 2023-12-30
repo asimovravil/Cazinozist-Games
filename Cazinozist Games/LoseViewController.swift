@@ -12,6 +12,7 @@ class LoseViewController: UIViewController {
     let winResult = UIImageView()
     let imageScore = UIImageView()
     let buttonStep = UIButton()
+    var userCorrectAnswers = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +27,7 @@ class LoseViewController: UIViewController {
         winResult.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(winResult)
         
-        imageScore.image = UIImage(named: "win1")
+        imageScore.image = UIImage(named: "win\(userCorrectAnswers)")
         imageScore.layer.masksToBounds = true
         imageScore.contentMode = .scaleAspectFill
         imageScore.translatesAutoresizingMaskIntoConstraints = false
