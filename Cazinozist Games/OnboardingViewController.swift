@@ -142,9 +142,9 @@ class OnboardingViewController: UIViewController {
         if sectionCGList < cgList.count - 1 {
             sectionCGList += 1
         } else {
-//            let homeVC = HomeViewController()
-//            homeVC.navigationItem.hidesBackButton = true
-//            self.navigationController?.pushViewController(homeVC, animated: true)
+            let homeVC = TabBarController()
+            homeVC.navigationItem.hidesBackButton = true
+            self.navigationController?.pushViewController(homeVC, animated: true)
         }
         
         updatePageControllCG(sectionCGList)
@@ -158,9 +158,9 @@ class OnboardingViewController: UIViewController {
     }
 
     @objc private func skipButtonTapped() {
-//        let homeVC = HomeViewController()
-//        homeVC.navigationItem.hidesBackButton = true
-//        self.navigationController?.pushViewController(homeVC, animated: true)
+        let homeVC = TabBarController()
+        homeVC.navigationItem.hidesBackButton = true
+        self.navigationController?.pushViewController(homeVC, animated: true)
     }
 }
 

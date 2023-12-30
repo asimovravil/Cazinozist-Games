@@ -35,6 +35,7 @@
 		F16DF1072B40459A0013C494 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF1062B40459A0013C494 /* DictionaryViewController.swift */; };
 		F16DF1092B4047E20013C494 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF1082B4047E20013C494 /* MenuViewController.swift */; };
 		F16DF10B2B40480F0013C494 /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF10A2B40480F0013C494 /* PrivacyViewController.swift */; };
+		F16DF10F2B40501C0013C494 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF10E2B40501C0013C494 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		F16DF1062B40459A0013C494 /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
 		F16DF1082B4047E20013C494 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		F16DF10A2B40480F0013C494 /* PrivacyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+		F16DF10E2B40501C0013C494 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				F16DF0DF2B3FEAE60013C494 /* Archivo */,
 				F16DF0B82B3FE55D0013C494 /* AppDelegate.swift */,
 				F16DF0BA2B3FE55D0013C494 /* SceneDelegate.swift */,
+				F16DF10E2B40501C0013C494 /* TabBarController.swift */,
 				F16DF0BC2B3FE55D0013C494 /* OnboardingViewController.swift */,
 				F16DF0DD2B3FE8E20013C494 /* CGList.swift */,
 				F16DF1042B3FF45A0013C494 /* GamesViewController.swift */,
@@ -232,6 +235,7 @@
 				F16DF1072B40459A0013C494 /* DictionaryViewController.swift in Sources */,
 				F16DF0BD2B3FE55D0013C494 /* OnboardingViewController.swift in Sources */,
 				F16DF0B92B3FE55D0013C494 /* AppDelegate.swift in Sources */,
+				F16DF10F2B40501C0013C494 /* TabBarController.swift in Sources */,
 				F16DF10B2B40480F0013C494 /* PrivacyViewController.swift in Sources */,
 				F16DF1092B4047E20013C494 /* MenuViewController.swift in Sources */,
 				F16DF0DE2B3FE8E20013C494 /* CGList.swift in Sources */,

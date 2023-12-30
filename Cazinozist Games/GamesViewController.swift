@@ -59,6 +59,7 @@ class GamesViewController: UIViewController {
             scrollView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             scrollView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
             
+            buttonPoker.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 20),
             buttonPoker.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             
             buttonBlackjack.topAnchor.constraint(equalTo: buttonPoker.bottomAnchor, constant: 16),
@@ -78,17 +79,6 @@ class GamesViewController: UIViewController {
             buttonCraps.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
             buttonCraps.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor, constant: -16)
         ])
-        
-        if UIScreen.main.bounds.size.height >= 812 {
-            NSLayoutConstraint.activate([
-                buttonPoker.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 120),
-
-            ])
-        } else {
-            NSLayoutConstraint.activate([
-                buttonPoker.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 20),
-            ])
-        }
     }
     
     private func cgBar() {
