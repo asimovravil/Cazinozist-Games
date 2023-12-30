@@ -43,6 +43,7 @@
 		F16DF1212B406D580013C494 /* TestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF11D2B406D580013C494 /* TestCell.swift */; };
 		F16DF1222B406D580013C494 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF11E2B406D580013C494 /* TestViewController.swift */; };
 		F16DF1232B406D580013C494 /* QuestionCazinozist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF11F2B406D580013C494 /* QuestionCazinozist.swift */; };
+		F16DF1252B4074290013C494 /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF1242B4074290013C494 /* WinViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		F16DF11D2B406D580013C494 /* TestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCell.swift; sourceTree = "<group>"; };
 		F16DF11E2B406D580013C494 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		F16DF11F2B406D580013C494 /* QuestionCazinozist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCazinozist.swift; sourceTree = "<group>"; };
+		F16DF1242B4074290013C494 /* WinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				F16DF11D2B406D580013C494 /* TestCell.swift */,
 				F16DF11F2B406D580013C494 /* QuestionCazinozist.swift */,
 				F16DF11C2B406D580013C494 /* CazinozistLogic.swift */,
+				F16DF1242B4074290013C494 /* WinViewController.swift */,
 				F16DF0C12B3FE55F0013C494 /* Assets.xcassets */,
 				F16DF0C32B3FE55F0013C494 /* LaunchScreen.storyboard */,
 				F16DF0C62B3FE55F0013C494 /* Info.plist */,
@@ -253,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F16DF1252B4074290013C494 /* WinViewController.swift in Sources */,
 				F16DF1212B406D580013C494 /* TestCell.swift in Sources */,
 				F16DF1072B40459A0013C494 /* DictionaryViewController.swift in Sources */,
 				F16DF0BD2B3FE55D0013C494 /* OnboardingViewController.swift in Sources */,
