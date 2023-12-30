@@ -53,6 +53,13 @@ class GamesViewController: UIViewController {
         buttonCraps.setImage(UIImage(named: "craps"), for: .normal)
         buttonCraps.translatesAutoresizingMaskIntoConstraints = false
         
+        buttonPoker.addTarget(self, action: #selector(levelsMetod), for: .touchUpInside)
+        buttonBlackjack.addTarget(self, action: #selector(levelsMetod), for: .touchUpInside)
+        buttonRoulette.addTarget(self, action: #selector(levelsMetod), for: .touchUpInside)
+        buttonBaccarat.addTarget(self, action: #selector(levelsMetod), for: .touchUpInside)
+        buttonBingo.addTarget(self, action: #selector(levelsMetod), for: .touchUpInside)
+        buttonCraps.addTarget(self, action: #selector(levelsMetod), for: .touchUpInside)
+
         NSLayoutConstraint.activate([
             scrollView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             scrollView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
@@ -79,6 +86,11 @@ class GamesViewController: UIViewController {
             buttonCraps.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
             buttonCraps.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor, constant: -16)
         ])
+    }
+    
+    @objc private func levelsMetod() {
+        let levelsVC = LevelsViewController()
+        self.navigationController?.pushViewController(levelsVC, animated: true)
     }
     
     private func cgBar() {
