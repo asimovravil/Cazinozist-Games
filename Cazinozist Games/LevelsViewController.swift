@@ -87,6 +87,7 @@ extension LevelsViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
+        let dayCategoryVC = RulesViewController()
+        navigationController?.pushViewController(dayCategoryVC, animated: true)
     }
 }

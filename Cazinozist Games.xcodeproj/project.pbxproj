@@ -38,6 +38,7 @@
 		F16DF10F2B40501C0013C494 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF10E2B40501C0013C494 /* TabBarController.swift */; };
 		F16DF1122B4054070013C494 /* LevelsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF1102B4054070013C494 /* LevelsCell.swift */; };
 		F16DF1132B4054070013C494 /* LevelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF1112B4054070013C494 /* LevelsViewController.swift */; };
+		F16DF1192B405F8A0013C494 /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16DF1172B405F890013C494 /* RulesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		F16DF10E2B40501C0013C494 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F16DF1102B4054070013C494 /* LevelsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelsCell.swift; sourceTree = "<group>"; };
 		F16DF1112B4054070013C494 /* LevelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelsViewController.swift; sourceTree = "<group>"; };
+		F16DF1172B405F890013C494 /* RulesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				F16DF1082B4047E20013C494 /* MenuViewController.swift */,
 				F16DF1112B4054070013C494 /* LevelsViewController.swift */,
 				F16DF1102B4054070013C494 /* LevelsCell.swift */,
+				F16DF1172B405F890013C494 /* RulesViewController.swift */,
 				F16DF0C12B3FE55F0013C494 /* Assets.xcassets */,
 				F16DF0C32B3FE55F0013C494 /* LaunchScreen.storyboard */,
 				F16DF0C62B3FE55F0013C494 /* Info.plist */,
@@ -246,6 +249,7 @@
 				F16DF1092B4047E20013C494 /* MenuViewController.swift in Sources */,
 				F16DF1122B4054070013C494 /* LevelsCell.swift in Sources */,
 				F16DF1132B4054070013C494 /* LevelsViewController.swift in Sources */,
+				F16DF1192B405F8A0013C494 /* RulesViewController.swift in Sources */,
 				F16DF0DE2B3FE8E20013C494 /* CGList.swift in Sources */,
 				F16DF0BB2B3FE55D0013C494 /* SceneDelegate.swift in Sources */,
 				F16DF1052B3FF45A0013C494 /* GamesViewController.swift in Sources */,
